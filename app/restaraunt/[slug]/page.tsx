@@ -32,13 +32,11 @@ export default function RestarauntDetails() {
           <div className="bg-white w-[70%] rounded p-3 shadow">
             {/* RESAURANT NAVBAR */}
             <nav className="flex text-reg border-b pb-2">
-              <Link href="" className="mr-7">
-                {" "}
-                Overview{" "}
+              <Link href="/restaraunt/sasa" className="mr-7">
+                Overview
               </Link>
-              <Link href="" className="mr-7">
-                {" "}
-                Menu{" "}
+              <Link href="/restaraunt/sasa/menu" className="mr-7">
+                Menu
               </Link>
             </nav>
             {/* RESAURANT NAVBAR */} {/* TITLE */}
